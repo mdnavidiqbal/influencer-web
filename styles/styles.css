@@ -1,0 +1,34 @@
+/* Shared-Style */
+.display-flex{
+    display: flex;
+}
+
+/* Shared-Colour */
+.primary-colour{
+    color: rgba(58, 58, 58, 1);
+}
+/* Header-Style */
+header{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+/* Nav-Style */
+.nav-heading{
+    font-weight: bold;
+    font-size: 24px;
+}
+nav{
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+ul li a img{
+    width: 30px;
+
+}
