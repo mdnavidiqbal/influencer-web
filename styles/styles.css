@@ -79,3 +79,25 @@ ul li a img {
     font-weight: bold;
     font-size: 50px;
 }
+
+/* Responsive-Media-Query */
+@media screen and (max-width:576px) {
+   .nav-bar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-right: 50px;
+   }
+   .banner{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+   }
+   .banner-image{
+    margin: 0 auto;
+   }
+   .banner-content{
+    text-align: center;
+   }
+}
