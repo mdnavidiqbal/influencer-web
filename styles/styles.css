@@ -29,6 +29,13 @@ body {
     border-radius: 41px;
 }
 
+.button-2 button {
+    color: rgba(224, 44, 109, 1);
+    background-color: white;
+    border: none;
+    display: flex;
+}
+
 /* Nav-Style */
 nav {
     margin-right: 120px;
@@ -101,20 +108,6 @@ nav ul li a {
     max-width: 1120px;
 }
 
-/* .head-icon{
-    width: 1040px;
-    height: 80px;
-    margin: 0 auto;
-    border: none;
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.1);
-    
-} */
-/* .icon ul{
-    list-style: none;
-    align-items: center; 
-    padding-top: 15px; 
-    padding-left: 3px;
-} */
 .head-icon ul {
     list-style: none;
     align-items: center;
@@ -122,11 +115,39 @@ nav ul li a {
     padding-left: 3px;
 }
 
-/* .icon{
-    align-items: center;
-} */
-.section-container {
-    margin-top: 30px;
+/* Main-Style */
+.product-container {
+    padding-top: 30px;
+}
+
+.product-heading {
+    text-align: center;
+}
+
+.card-container {
+    max-width: 230px;
+    height: 400px;
+    padding-left: 20px;
+    padding-top: 40px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+    width: 200px;
+
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+    justify-self: center;
 }
 
 /* Responsive-Media-Query */
@@ -140,10 +161,6 @@ nav ul li a {
         text-align: center;
     }
 
-    /* nav ul{
-        text-align: center;
-        align-items: center;
-    } */
     nav ul {
         display: flex;
         flex-direction: column;
@@ -191,5 +208,12 @@ nav ul li a {
         padding-top: 50px;
         padding-left: 10%;
         padding-right: 7%;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        padding: 20px;
+        justify-self: center;
     }
 }
